@@ -1,0 +1,53 @@
+<html lang="en"><head>
+	<meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title></title>
+	<link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='stylesheets/style.css') }}">
+</head>
+<body>
+<form method="POST" ,="" action="{{url_for('home')}}">
+<div class="wrapper">
+    <div class="title">
+     Diabetes Checker Online
+    </div>
+    <div class="form">
+       <div class="inputfield">
+          <label>Pregnancy Month : </label>
+          <input type="text" class="input" name='a' min="0">
+       </div>  
+        <div class="inputfield">
+          <label>Glucose : </label>
+          <input type="text" class="input" name ='b' min="0">
+       </div>  
+       <div class="inputfield">
+        <label>Blood Pressure : </label>
+        <input type="text" class="input" name ='c' min="0">
+     </div> 
+     <div class="inputfield">
+        <label>Skin thickness : </label>
+        <input type="text" class="input" name ='d' min="0">
+     </div> 
+     <div class="inputfield">
+        <label>Insulin : </label>
+        <input type="text" class="input" name ='e' min="0">
+     </div> 
+     <div class="inputfield">
+        <label>BMI : </label>
+        <input type="text" class="input" name ='f' min="0">
+     </div> 
+     <div class="inputfield">
+        <label>Diabetes Pedigree Func :</label>
+        <input type="text" class="input" name ='g' min="0">
+     </div> 
+     <div class="inputfield">
+        <label>Age :</label>
+        <input type="text" class="input" name ='h' min="0">
+     </div>
+     <div class="submit">
+      <input type="submit" class="button" value="Submit">
+  </div>
+    </div>
+</div>
+</form>
+
+</body></html>
